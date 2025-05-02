@@ -1,18 +1,3 @@
-# Unions
-Factors of being Pro Union
-
-## Project:  FILL THIS OUT
-# Located:   FILL THIS OUT
-# File Name: FILL THIS OUT
-# Date:      FILL THIS OUT
-# Who:       FILL THIS OUT
-
-
-####################################################################################
-############              Pre-Analysis: settings, packages, and data    ############
-####################################################################################
-
-
 ### Settings + Packages
 #install.packages("dplyr")
 #install.packages("psych")
@@ -21,12 +6,6 @@ library(psych)
 
 ### Load data 
 GSS <- read.csv("GSS2022.csv")
-
-####################################################################################
-############              PHASE 1: CLEAN DATA FOR ANALYSIS              ############
-####################################################################################
-
-
 
 ############                     DEPENDENT VARIABLE                     ############
 ############                   WORKERS BELIEFS ON UNIONS                ############
@@ -64,11 +43,6 @@ table(GSS$wrkslf, GSS$selfemployed)
 
 ############                  INDEPENDENT VARIABLE                    ############
 ############                    JOB OCCUPATION                ############
-
-# STEP 1: Examine variable and coding schema 
-
-
-####################################################################################
 
 # STEP 1: Examine variable and coding schema 
 table(GSS$pandinc)
